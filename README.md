@@ -10,6 +10,7 @@
 - **Multi-threaded Scanning**: Utilizes Python's `ThreadPoolExecutor` for concurrent execution and high-speed fuzzing (up to 100 workers).
 - **Smart Response Matching**: Evaluates response bodies against predefined signatures (e.g., `root:x:`, `[extensions]`) to eliminate false positives.
 - **Dual-Mode Testing**: Tests direct payload injection (`/payload`) and common file inclusion parameter patterns (`/index.php?file=payload`).
+- **Extensive Payloads Repository**: Includes a dedicated `payloads` directory packed with over 17,000 paths and payloads for deep fuzzing, with full support for adding custom payloads.
 - **Interactive Terminal UI**: Features a clean ASCII banner, real-time status counters, and color-coded HTTP status tracking.
 
 ---
