@@ -1,6 +1,6 @@
-# NexusLFI 🛡️
+# LFI Scanner🛡️
 
-**NexusLFI** is a high-performance Python security utility designed for automated Path Traversal and Local File Inclusion (LFI) vulnerability discovery. Built with a multi-threaded execution engine and intelligent response matching, NexusLFI efficiently crawls web applications, discovers sub-paths, and tests parameters against sensitive system file signatures to streamline web penetration testing and bug bounty workflows.
+**LFI Scanner** is a high-performance Python security utility designed for automated Path Traversal and Local File Inclusion (LFI) vulnerability discovery. Built with a multi-threaded execution engine and intelligent response matching, NexusLFI efficiently crawls web applications, discovers sub-paths, and tests parameters against sensitive system file signatures to streamline web penetration testing and bug bounty workflows.
 
 ---
 
