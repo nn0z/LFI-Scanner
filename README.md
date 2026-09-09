@@ -22,4 +22,4 @@
 ---
 
 ## Disclaimer
-NexusLFI is intended strictly for authorized security research, ethical hacking, and bug bounty programs. The author assumes no liability and is not responsible for any misuse, unauthorized scanning, or damage caused by this software. Users must ensure they have explicit permission from the system owners before conducting any security testing.
+LFI Scanner is intended strictly for authorized security research, ethical hacking, and bug bounty programs. The author assumes no liability and is not responsible for any misuse, unauthorized scanning, or damage caused by this software. Users must ensure they have explicit permission from the system owners before conducting any security testing.
