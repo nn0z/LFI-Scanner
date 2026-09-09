@@ -6,13 +6,12 @@
 
 ## 🚀 Features
 
-- **Automated Link Crawling**: Automatically extracts and scopes sub-paths from the target index page within the same domain.
-- **Multi-threaded Scanning**: Utilizes Python's `ThreadPoolExecutor` for concurrent execution and high-speed fuzzing (up to 100 workers).
-- **Smart Response Matching**: Evaluates response bodies against predefined signatures (e.g., `root:x:`, `[extensions]`) to eliminate false positives.
-- **Dual-Mode Testing**: Tests direct payload injection (`/payload`) and common file inclusion parameter patterns (`/index.php?file=payload`).
-- **Extensive Payloads Repository**: Includes a dedicated `payloads` directory packed with over 17,000 paths and payloads for deep fuzzing, with full support for adding custom payloads.
-- **Interactive Terminal UI**: Features a clean ASCII banner, real-time status counters, and color-coded HTTP status tracking.
-
+- **Automated Link Crawling:** Automatically extracts and scopes sub-paths from the target index page within the same domain.
+- **Multi-threaded Scanning:** Utilizes Python's `ThreadPoolExecutor` for concurrent execution and high-speed fuzzing (up to 50–100 workers).
+- **Smart Response Matching:** Evaluates response bodies against predefined signatures (e.g., `root:x:`, `[extensions]`) to eliminate false positives.
+- **Dual-Mode Testing & Comprehensive Vectors:** Supports URL parameter-based scanning, POST parameter injection, HTTP Header testing (`X-Forwarded-For`, `User-Agent`, `Referer`, `Cookie`, etc.), and Direct Path Traversal.
+- **Extensive Payloads Repository:** Includes built-in default payloads alongside a dedicated `payloads.txt` file for deep fuzzing modes, covering Linux/Windows LFI paths, wrapper techniques (`php://filter`), and encoding variations.
+- **Interactive Terminal UI:** Features a clean ASCII banner, real-time status counters, and color-coded HTTP status tracking.
 ---
 
 ## 📋 Requirements
